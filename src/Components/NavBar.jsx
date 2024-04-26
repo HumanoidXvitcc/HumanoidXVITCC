@@ -25,8 +25,8 @@ function NavBar() {
             
               <Link to="about" spy={true} smooth={true} offset={-150} duration={500} className='sm:invisible px-[1vw] cursor-pointer '><button className='mx-2 my-8'>About</button></Link>
               <Link to="projects" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>Projects</button></Link>
-              <Link to="achievements" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>Achievements</button></Link>
-              <Link to="events" spy={true} smooth={true} offset={-100} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8 animate-pulse' id="glow">New Event</button></Link>
+              <Link to="achievements" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>Events & Achievements</button></Link>
+              {/* <Link to="events" spy={true} smooth={true} offset={-100} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8 animate-pulse' id="glow">New Event</button></Link> */}
               <Link to="obs" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>OBs</button></Link>
 
               
@@ -35,9 +35,9 @@ function NavBar() {
                 <div className='z-[100] flex flex-col absolute right-10 top-[4em] NavBar-bg text-[1em] bg-[#178376] text-white p-4 rounded'>
                   <Link onClick={pizzaClick} to="about" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible text-black font-bold invisible px-[1vw] py-[1vh]'>About</Link>
                   <Link onClick={pizzaClick} to="projects" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible invisible font-bold px-[1vw] py-[1vh]'>Projects</Link>
-                  <Link onClick={pizzaClick} to="achievements" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible invisible text-black font-bold px-[1vw] py-[1vh]'>Achievements</Link>
-                  <Link onClick={pizzaClick} to="events" spy={true} smooth={true} offset={-100} duration={1000} id="glow" className='cursor-pointer sm:visible  font-bold invisible px-[1vw] py-[1vh] animate-pulse'>New Event</Link>
-                  <Link onClick={pizzaClick} to="obs" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible text-black font-bold invisible px-[1vw] py-[1vh]'>OBs</Link>
+                  <Link onClick={pizzaClick} to="achievements" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible invisible text-black font-bold px-[1vw] py-[1vh]'>Events & Achievements</Link>
+                  {/* <Link onClick={pizzaClick} to="events" spy={true} smooth={true} offset={-100} duration={1000} id="glow" className='cursor-pointer sm:visible  font-bold invisible px-[1vw] py-[1vh] animate-pulse'>New Event</Link> */}
+                  <Link onClick={pizzaClick} to="obs" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible text-white font-bold invisible px-[1vw] py-[1vh]'>OBs</Link>
                 </div>
               </div>
           </div>
