@@ -18,7 +18,7 @@ const PictureCard = () => {
     }
 
     return (
-      <div onClick={handleClick} className={activeMenu==text?"bg-[#178376] text-white rounded hover:duration-300 hover:ease-in-out hover:cursor-pointer text-white px-4 py-2":"hover:duration-300 hover:ease-in-out hover:cursor-pointer hover:bg-[#178376] hover:rounded text-[white] px-4 py-2"}  key={text}>
+      <div onClick={handleClick} className={activeMenu==text?"bg-[#178376] rounded hover:duration-300 hover:ease-in-out hover:cursor-pointer text-white px-4 py-2":"hover:duration-300 hover:ease-in-out hover:cursor-pointer hover:bg-[#178376] hover:rounded text-[white] px-4 py-2"}  key={text}>
         <p>{text}</p>
       </div>
     )

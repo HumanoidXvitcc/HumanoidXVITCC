@@ -13,6 +13,9 @@ function NavBar() {
   function stayOnThisPage(){
     window.location.href = "https://humanoidxvitcc.netlify.app/";
   }
+  function pastObs(){
+    window.location.href = "https://humanoidxvitcc.netlify.app/pastobs";
+  }
 
   return (
     <div className=' z-10 flex flex-col fixed text-xs opacity-[85]'>
@@ -28,8 +31,8 @@ function NavBar() {
               <Link to="achievements" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>Events & Achievements</button></Link>
               {/* <Link to="events" spy={true} smooth={true} offset={-100} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8 animate-pulse' id="glow">New Event</button></Link> */}
               <Link to="obs" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>OBs</button></Link>
+              <Link onClick={pastObs} to="pastobs" spy={true} smooth={true} offset={-105} duration={500} className='sm:invisible px-[1vw] cursor-pointer'><button className='mx-2 my-8'>Past OBs</button></Link>
 
-              
               <img loading="lazy" src='\assets\pizza.png' alt='search' onClick={pizzaClick} className={pizzaClicked?'relative h-[3em] mr-12 custom:hidden duration-300':'h-[3em] sm:mr-12 origin-center rotate-45 custom:hidden duration-300'} />
               <div onClick={pizzaClick} className={pizzaClicked?'duration-500 ':'duration-500 hidden '}>
                 <div className='z-[100] flex flex-col absolute right-10 top-[4em] NavBar-bg text-[1em] bg-[#178376] text-white p-4 rounded'>

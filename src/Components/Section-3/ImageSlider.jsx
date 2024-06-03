@@ -24,7 +24,7 @@ const ImageSlides = () => {
     function createPictureCard(picture){
         if(picture.id==current+1){
             return (
-                <div className='flex flex-col items-center text-white'>
+                <div className='w-[60vw] flex flex-col items-center text-white'>
                     <img loading="lazy" src={picture.src} alt={picture.id} className='custom:h-[70vh] duration-500 hover:scale-110 rounded-lg'/>
                     <p className='p-4 text-s font-semibold'>{picture.text}</p>
                 </div>
@@ -42,7 +42,7 @@ const ImageSlides = () => {
                             <path d="M1.75974 17.8836C0.151164 16.9109 0.151161 14.5776 1.75974 13.6049L23.3699 0.538092C25.036 -0.469368 27.1635 0.730352 27.1635 2.67741L27.1635 28.8111C27.1635 30.7582 25.036 31.9579 23.3699 30.9504L1.75974 17.8836Z" fill={current>0?"white":"#5E5E5E"} />
                         </svg>
                     </div>           
-                    <div className='w-[60vw] sm:mr-[5vw] sm:ml-[5vw]  flex flex-col items-center justify-center'>
+                    <div className='sm:mr-[5vw] sm:ml-[5vw]  flex flex-col items-center justify-center'>
                         {pictures.map(createPictureCard)}
                     </div>
                     <div className='w-[10vw]'>

@@ -1,11 +1,11 @@
 import React from 'react'
 import PictureCard from './PictureCard'
-import GalleryHeading from './GalleryHeading'
+import SectionHeading from '../ExtraFeatures/SectionHeading'
 
 const Obs = () => {
   return (
     <div id="obs">
-        <GalleryHeading text1="Our" text2="OBs" ptext="Our Cabinet Members!" />
+        <SectionHeading text1="Our" text2="OBs 23-24" ptext="Our OBs through our journey!" />
         <PictureCard />
     </div>
   )
