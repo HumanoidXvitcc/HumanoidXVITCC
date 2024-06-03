@@ -68,6 +68,13 @@ const pictures = [
       dept: "V R Anirudh - Design Lead",
       text: 'Design Leads',
       blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
+    },
+    {
+      id: 11,
+      imgURL: 'assets/OBs24-25/ProgrammingLead/Tashadur.jpg',
+      dept: "Tashadur Rahman - Programming Lead",
+      text: 'Programming Leads Leads',
+      blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
     }
 ]
 
