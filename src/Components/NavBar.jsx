@@ -39,6 +39,7 @@ function NavBar() {
                   <Link onClick={pizzaClick} to="achievements" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible invisible text-black font-bold px-[1vw] py-[1vh]'>Events & Achievements</Link>
                   {/* <Link onClick={pizzaClick} to="events" spy={true} smooth={true} offset={-100} duration={1000} id="glow" className='cursor-pointer sm:visible  font-bold invisible px-[1vw] py-[1vh] animate-pulse'>New Event</Link> */}
                   <Link onClick={pizzaClick} to="obs" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible text-white font-bold invisible px-[1vw] py-[1vh]'>OBs</Link>
+                  <LinkClick onClick={pizzaClick} to="/pastobs" spy={true} smooth={true} offset={-100} duration={1000} className='cursor-pointer sm:visible invisible text-black font-bold px-[1vw] py-[1vh]'>Past OBs</LinkClick>
                 </div>
               </div>
           </div>
