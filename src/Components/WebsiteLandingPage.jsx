@@ -17,8 +17,8 @@ const WebsiteLandingPage = () => {
             <VideoPlayer />
             <ImageCarousel />
             {/* <SynthetixBanner />  */}
-            <Footer />   
             <Obs />   
+            <Footer />   
         </div>
     </div>
   )
