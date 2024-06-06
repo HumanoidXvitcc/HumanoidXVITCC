@@ -78,7 +78,7 @@ const pictures = [
     },
     {
       id: 12,
-      imgURL: 'assets/OBs24-25/ElectricalHeads/TraunV.jpg',
+      imgURL: 'assets/OBs24-25/ElectricalHeads/TarunV.jpg',
       dept: "Tarun V - Electrical Lead",
       text: 'Programming Leads',
       blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
@@ -92,7 +92,7 @@ const pictures = [
     },
     {
       id:14,
-      imgURL: 'public/assets/OBs24-25/Design&SocialMedia/Srilaya.jpg',
+      imgURL: 'assets/OBs24-25/Design&SocialMedia/Srilaya.jpg',
       dept: "Srilaya Sriraman - Design & Social Media Lead",
       text: 'Design & SM Leads',
       blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
