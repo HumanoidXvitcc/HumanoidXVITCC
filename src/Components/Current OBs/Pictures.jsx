@@ -73,7 +73,28 @@ const pictures = [
       id: 11,
       imgURL: 'assets/OBs24-25/ProgrammingLead/Tashadur.jpg',
       dept: "Tashadur Rahman - Programming Lead",
-      text: 'Programming Leads Leads',
+      text: 'Programming Leads',
+      blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
+    },
+    {
+      id: 12,
+      imgURL: 'assets/OBs24-25/ElectricalHeads/TraunV.jpg',
+      dept: "Tarun V - Electrical Lead",
+      text: 'Programming Leads',
+      blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
+    },
+    {
+      id:13,
+      imgURL: 'assets/OBs24-25/WebDevLead/AkkileshA.jpg',
+      dept: "Akkilesh A - Web Dev Lead",
+      text: 'Web Dev Lead',
+      blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",      
+    },
+    {
+      id:14,
+      imgURL: 'public/assets/OBs24-25/Design&SocialMedia/Srilaya.jpg',
+      dept: "Srilaya Sriraman - Design & Social Media Lead",
+      text: 'Design & SM Leads',
       blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",
     }
 ]
