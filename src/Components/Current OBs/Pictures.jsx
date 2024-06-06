@@ -85,7 +85,7 @@ const pictures = [
     },
     {
       id:13,
-      imgURL: 'assets/OBs24-25/WebDevLead/AkkileshA.jpg',
+      imgURL: 'assets/OBs24-25/WebDevlead/AkkileshA.jpg',
       dept: "Akkilesh A - Web Dev Lead",
       text: 'Web Dev Lead',
       blurhash:"LGF5]+Yk^6#M@-5c,1J5@[or[Q6.",      
